@@ -59,6 +59,8 @@ git checkout master
 
 ### Build the source code to produce binary executables:
 ```
+cd ZeroClassic
+chmod +x zcutil/build.sh depends/config.guess depends/config.sub autogen.sh share/genbuild.sh src/leveldb/build_detect_platform
 ./zcutil/build.sh --disable-rust -j$(nproc)
 ```
 On a typical laptop -j3 works fine, while retaining some UI interactivity
