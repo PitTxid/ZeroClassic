@@ -77,7 +77,7 @@ echo "rpcport=23800" >> ~/.zero/zero.conf
 ### Seeder Nodes
 As of 05/12/2018 the following seeder nodes are up and run a recent Linux version:
 ```
-addnode=
+addnode=163.172.49.214
 addnode=
 addnode=
 ```
