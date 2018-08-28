@@ -1,23 +1,14 @@
-ZERO 1.0.14-1
-=======
 
-What is ZERO?
---------------
+![Alt text](https://github.com/LEAD-Anoy74/ZeroClassic/blob/master/art/zero_icon.png?raw=true "ZeroClassic")
 
-[ZERO](https://github.com/zerocurrencycoin/zero) is a fork of Zcash.
+[ZERC](https://github.com/zerocurrencycoin/zero) is a fork of Zcash.
 Zcash is a fork of Bitcoin that adds shielded transaction via zk-SNARKs.
 
-This software is the ZERO node. It downloads and stores the entire history of ZERO transactions, about 1GB at this point.
+This software is the ZERO Classic node. It downloads and stores the entire history of ZERO Classic transactions, about 1GB at this point.
 Depending on the speed of your computer and network connection, the synchronization process could take several hours.
 
 Announcements
 -----------------
-Launch date: 2017-02-19
-https://bitcointalk.org/index.php?topic=1796036.0
-
-https://bitcointalk.org/index.php?topic=2525344.0
-
-https://bitcointalk.org/index.php?topic=3310714.0
 
 
 Security Warnings
@@ -25,7 +16,7 @@ Security Warnings
 See important security warnings on the
 [Security Information page](https://z.cash/support/security/).
 
-**ZERO is unfinished and highly experimental.** Use at your own risk.
+**ZERO Classic is unfinished and highly experimental.** Use at your own risk.
 
 Deprecation Policy
 ------------------
@@ -51,10 +42,10 @@ sudo apt-get install \
 ./zcutil/fetch-params.sh
 ```
 
-### Obtain the ZERO software from GitHub
+### Obtain the ZERO Classic software from GitHub
 ```
-git clone https://github.com/zerocurrencycoin/zero.git
-cd zero
+git clone https://github.com/LEAD-Anoy74/ZeroClassic/
+cd ZeroClassic
 git checkout master
 ```
 
@@ -67,7 +58,7 @@ On a typical laptop -j3 works fine, while retaining some UI interactivity
 ./zcutil/build.sh --disable-rust -j3
 ```
 
-### Create a ZERO configuration file
+### Create a ZERO Classic configuration file
 ```
 mkdir -p ~/.zero
 echo "rpcuser=YOUR_USER" > ~/.zero/zero.conf
@@ -78,8 +69,9 @@ echo "rpcport=23800" >> ~/.zero/zero.conf
 ### Seeder Nodes
 As of 05/12/2018 the following seeder nodes are up and run a recent Linux version:
 ```
-addnode=34.236.37.74
-addnode=47.148.160.233
+addnode=
+addnode=
+addnode=
 ```
 
 ### Enable CPU mining (optional)
@@ -98,26 +90,11 @@ A sample demonstrating a large number of command line options
 ./contrib/debian/examples/zero.conf
 ```
 
-Running & Using ZERO
+Running & Using ZERO Classic
 --------------------
-After a successful build ZERO binaries are in `./src`. The two important binaries are `zcashd` and `zcash-cli`.
+After a successful build ZERO Classic binaries are in `./src`. The two important binaries are `zcashd` and `zcash-cli`.
 
 Your wallet will be created (on first zcashd run) in: ~/.zero/wallet.zero
 Please backup your wallet often and keep it safe.
 
 The usage is currently the same ZCash. For more information see the [ZCash User Guide](https://github.com/zcash/zcash/wiki/1.0-User-Guide#running-zcash).
-
-License
--------
-For license information see the file [COPYING](COPYING).
-
-Donations
---------------------
-Developer Donation Wallet 
-t1cDotxmVEJrniDjNqqjsCWq8mLMApV8vXC
-
-Exchange Listings Donation Wallet 
-t1WFymzcfzUPttYExprMyt1RPtyHWkic1WV
-
-General Donation Wallet 
-t1fDbALrS7tZV7DDvadAT7yHi5Sztptj8yP
