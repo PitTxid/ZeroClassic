@@ -1,7 +1,7 @@
 
 ![Alt text](https://github.com/LEAD-Anoy74/ZeroClassic/blob/master/art/zero_icon.png?raw=true "ZeroClassic")
 
-[ZERC](https://github.com/zerocurrencycoin/zero) is a fork of Zcash.
+[ZERC](https://github.com/LEAD-Anoy74/ZeroClassic) is a fork of ZeroCurrency and Zcash.
 Zcash is a fork of Bitcoin that adds shielded transaction via zk-SNARKs.
 
 This software is the ZERO Classic node. It downloads and stores the entire history of ZERO Classic transactions, about 1GB at this point.
@@ -9,7 +9,15 @@ Depending on the speed of your computer and network connection, the synchronizat
 
 Announcements
 -----------------
+On September 15th, the old ZERO will fork to add block halving and dev fees. This means that a % of the Zero block reward, will go straight into the devs wallets. We've dediced to NOT SUPPORT THIS UPDATE and continue maintaining the old fashioned Zero like it should be. Free, open source, without any fee. This is why ZERO Classic (ZERC) is born.
 
+What should I do if I already own some coins?
+-----------------
+Zero will then have two chains:
+- MAIN CHAIN --> the one for users who will update their wallet
+- SIDE CHAIN --> the one who decided to keep their wallet as it was
+
+Coins existing on the initial chain, before 15th of September, will continue to exists in both chains. Then, every fork will continue on his own. Even your receiving adresses.
 
 Security Warnings
 -----------------
